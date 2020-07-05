@@ -1,0 +1,359 @@
+body {
+  margin: 0px;
+}
+.main-text{
+  width: 1200px;
+  margin: auto;
+}
+.footer{
+  background-color: #20B2AA;
+  height: 30px;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+}
+.footer h4{
+  margin: 0px;
+  padding-top: 5px ;
+}
+/*REGISTRATION*/
+.form-registration{
+  margin: 22px auto;
+  align-items: center;
+  width: 400px;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  background-color: beige;
+}
+.registration {
+  background-color: #20B2AA;
+  color: white;
+  margin: 0px;
+  padding-left: 10px;
+  height: 30px;
+  font-size: 20px;
+  font-family: "Century Gothic";
+}
+.registration p{
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.registration-form label{
+  margin-left: 10px;
+  margin-right: 5px;
+  /*color: #115c18;*/
+  font-family: "Century Gothic";
+}
+.registration-form input {
+  outline: none;
+  margin-top: 7px;
+  width: 200px;
+  border-radius: 7px;
+}
+.registration-form input:focus {
+  outline: none;
+  border-color: #008B8B;
+}
+.registration-form{
+  height: 250px;
+}
+.registration-btn {
+  margin: 10px auto 5px 10px;
+  width: 170px;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: #20B2AA;
+  color: white;
+}
+.registration-btn:hover {
+  background-color: #008B8B;
+}
+
+/*AUTHORIZATION*/
+.form-authorization{
+  margin: auto;
+  width: 350px;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.authorization-container {
+}
+.form-authorization{
+  margin: 22px auto;
+  text-align: center;
+  align-items: center;
+}
+.authorization {
+  width: 350px;
+  margin: 0px;
+  background-color: #20B2AA;
+  color: white;
+  height: 30px;
+  font-size: 20px;
+  font-family: "Century Gothic";
+}
+.authorization p{
+  margin: 0px;
+  margin-left: 10px;
+}
+.authorization-form{
+  background-color: beige;
+}
+.authorization-form label{
+  margin-left: 10px;
+  margin-top: 50px;
+  font-family: "Century Gothic";
+}
+.authorization-form input {
+  outline: none;
+  margin: 5px 5px;
+  width: 320px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.authorization-form input:focus {
+  outline: none;
+  border-color: #008B8B;
+}
+.authorization-btn {
+  margin: 10px auto 5px 10px;
+  width: 320px;
+  border-radius: 7px;
+  font-size: 18px;
+  background-color: #20B2AA;
+  color: white;
+}
+.authorization-btn:hover {
+  background-color: #008B8B;
+}
+.error-msg{
+  margin: auto;
+  height: 20px;
+}
+
+/*SEARCH*/
+.search{
+  width: 250px;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  display: flex;
+}
+
+/*MENU*/
+.menu{
+  margin: 0px;
+  background-color: #20B2AA;
+  height: 63px;
+  font-size: 20px;
+}
+.menu-list{
+  margin:0px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.menu-list li{
+  /*padding: 5px 10px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.menu-list li a{
+  text-decoration: none;
+  color: white;
+}
+.menu-list li:hover{
+  background-color: #008B8B;
+}
+#4:hover{
+      background-color: #20B2AA;
+}
+
+/*POST*/
+.post-form{
+  width: 800px;
+  margin: 10px auto;
+  align-items: center;
+}
+.post-container-p {
+margin-left: 300px;
+  font-size: 20px;
+}
+post-form-input{
+  width: 200px;
+  font-size: 18px;
+}
+post-form-textarea:focus,
+post-from-input:focus{
+  outline: none;
+  border-color: #008B8B;
+}
+.post {
+  margin: 22px auto;
+  align-items: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  width: 800px;
+}
+.post-form-p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.post-list li{
+  list-style-type: none;
+}
+.up-post {
+  margin:0;
+  background-color: #20B2AA;
+  font-size: 20px;
+
+}
+.postByUser{
+  margin-left: 10px;
+  color: aliceblue;
+}
+.postDate{
+  margin-left: 10px;
+  color: aliceblue;
+}
+.postUpdate{
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: aliceblue;
+}
+.postDelete{
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: aliceblue;
+}
+.postUpdate:hover,
+.postDelete:hover{
+  background-color: #008B8B;
+}
+.post-title{
+  margin: 0px;
+  font-size: 25px;
+}
+.post-title p{
+  margin: 10px auto;
+}
+.post-text {
+  font-size: 18px
+}
+.post-btn-add{
+  background-color: #20B2AA;
+  font-size: 18px;
+  margin-left: 300px;
+  border-radius: 7px;
+  color: aliceblue;
+}
+.post-form-btn-add{
+  background-color: #20B2AA;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-left: 15px;
+  color: aliceblue;
+}
+.post-btn-add:hover,
+.post-form-btn-add:hover{
+  background-color: #008B8B;
+}
+.item{
+  width: 100px;
+}
+/*COMMENT*/
+
+.comment {
+  margin:0;
+  align-items: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.up-comment {
+  height: 30px;
+  margin:0;
+  background-color: #008B8B;
+  font-size: 20px;
+
+}
+.commentByUser{
+  margin-left: 10px
+}
+.commentDate{
+  margin-left: 10px
+}
+.commentUpdate{
+  float: right;
+  margin-right: 20px;
+}
+.commentDelete{
+  float: right;
+  margin-right: 20px;
+}
+
+.comment-text {
+  font-size: 18px
+}
+/*USERS*/
+.user{
+  width: 600px;
+  margin: 22px auto;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 7px;
+  background-color: beige;
+}
+.users-list{
+  width: 600px;
+  margin: 22px auto;
+  text-align: center;
+  align-items: center
+}
+.users-list li{
+  list-style-type: none;
+}
+.users-list a{
+  text-decoration: none;
+}
+.null {
+  height: 10px;
+}
+.link{
+  margin:10px auto 10px 10px;
+  font-size: 17px;
+}
+.error{
+  margin-left: 10px;
+  color: brown;
+}
+.success-update{
+  margin-left: 10px;
+}
+.success-update p{
+  color: darkgreen;
+  font-size: 15px;
+}
+.delete-account {
+  margin: 10px auto;
+  align-items: center;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  width: 400px;
+  background-color: beige;
+  font-size: 18px;
+
+}
+.delete-account p{
+  color: darkgreen;
+}
+
